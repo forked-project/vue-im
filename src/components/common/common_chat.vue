@@ -845,9 +845,10 @@ export default {
             width: 100%;
             border-top: 1px solid #ccc;
             .opr-wrapper {
-                height: 20px;
+                height: 40px;
                 padding: 10px;
                 text-align: left;
+                border-bottom: 1px solid #ccc;
                 & > .item {
                     margin-right: 12px;
                     float: left;

@@ -61,14 +61,16 @@ export default {
         position: relative;
         & > .item {
             float: left;
-            border-right: 1px solid #e6e6e6;
             height: 100%;
+        }
+        & > .item+.item {
+            border-left: 1px solid #e6e6e6;
         }
         & > .im-record {
             width: 280px;
         }
         & > .im-chat {
-            width: calc(~'99% - 280px');
+            width: calc(~'100% - 280px');
         }
     }
 }
